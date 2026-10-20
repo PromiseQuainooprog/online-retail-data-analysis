@@ -1,0 +1,32 @@
+# Raw datasets — keep private
+data/raw/
+
+# Python cache files
+pycache/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+# ================================================= #
+# Keep raw and processed datasets private
+data/raw/
+data/processed/*.csv
+data/processed/*.db
+data/processed/data_cleaning.py
+
+# Python temporary files
+pycache/
+*.pyc
+
+# Virtual environments and editor files
+.venv/
+venv/
+.vscode/
+.DS_Store
+Thumbs.db
